@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo1 {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    display: flex;
+    margin-inline: 10px;
+    padding: 15px; 
+}
+
+.nav1 {
+    background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-start;
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 0px; 
+    margin: 10px;
+}
+
+.link1 {
+    background-color: purple;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px; 
+}
+
+.link2 {
+    background-color: purple;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    padding: 10px;
+}
+
+.link3 {
+    background-color: purple;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    padding: 10px;
+}
+
+.container {
+    background-color: darkcyan;
+    /* Ativa o flexbox */
+    display: flex;
+    /* Define se é row/column */
+    /* Define se há quebra de linha ao faltar espaço */
+    flex-wrap:start;
+    /* Ajustar os elementos no eixo main */
+    /* start, end, center, space-between, space-around, space-evenly */
+    justify-content: space-between;
+    /* Ajustar os elementos no eixo cross */
+    /* stretch, flex-start, flex-end, center */
+    align-items: normal;
+    height: 15vh;
+
+}
